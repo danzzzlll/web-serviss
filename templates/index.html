@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Веб сервис для определения типа комментария</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div>
+        <!-- <h2>{{csrf_token}}</h2> -->
+        <form action = "">
+        <p><b>Введите ваш комментарий:</b></p>
+        <p><textarea cols="150"; rows="30" name="result"></textarea></p>
+        <input type="submit">
+        <h2 white-space: nowrap;>Комментарий:
+            {{ header }}
+        </h2>
+        <h2 white-space: nowrap;>Рейтинг комментария:
+            {{ rating }}
+        </h2>
+    </form><br>
+    </div>
+</body>
+</html>
